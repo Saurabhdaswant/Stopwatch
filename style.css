@@ -1,8 +1,113 @@
-body,
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+/* POPPINS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+/*! must before all */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #001833;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #bbcae0;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+main {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #eeeeee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main,
+button,
 .jumbotron {
-  padding: 3rem;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  padding: 1rem 0.5rem;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
+    -6px -6px 10px rgba(255, 255, 255, 0.48);
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.padding {
+  padding: 1rem 3.5rem;
+}
+
+.resetBtn {
+  width: 100%;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
+    -6px -6px 10px rgba(255, 255, 255, 0.48);
+}
+
+.startBtn,
+.stopBtn,
+.resetBtn {
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  border: none;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 .timer {
   font-size: 5rem;
+  text-align: center;
+}
+
+.startBtn {
+  background-color: rgba(56, 238, 117, 0.527);
+  border: solid 3px green;
+}
+
+.stopBtn {
+  background-color: rgba(238, 56, 102, 0.527);
+  border: solid 3px red;
+}
+
+.startBtn,
+.stopBtn {
+  margin: 2rem 0;
+}
+
+@media (max-width: 500px) {
+  .startBtn,
+  .stopBtn,
+  .resetBtn {
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .timer {
+    font-size: 3rem;
+    text-align: center;
+  }
 }

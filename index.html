@@ -7,26 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="jumbotron text-center">
+    <div class="container ">
+        <main>
+            <h1 margin-bottom>Stopwatch</h1>
+            <div class="jumbotron margin-top ">
+                <!-- timer -->
+                <div class="timer">
+                    <span class="minutes">00</span>:<span class="seconds">00</span>
+                </div>
+            </div>
+            <!-- timer buttons -->
+            <div class="timer-buttons margin-top">
+                <button class="startBtn">Start</button>
+                <button class="stopBtn">Stop</button>
+            </div>
+            <button class="resetBtn  margin-top no-border ">Reset</button>
 
-
-
-        <!-- timer -->
-        <div class="timer">
-            <span class="minutes">00</span>:<span class="seconds">00</span>
-        </div>
-
-        <!-- timer buttons -->
-        <div class="timer-buttons">
-            <button class="btn btn-lg btn-success startBtn">start</button>
-            <button class="btn btn-lg btn-danger stopBtn">stop</button>
-            <button class="btn btn-link btn-block resetBtn">reset</button>
-        </div>
+        </main>
     </div>
 
     <script src="/app.js"></script>
