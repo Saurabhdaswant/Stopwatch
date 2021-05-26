@@ -14,7 +14,6 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #bbcae0;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 main {
@@ -22,7 +21,6 @@ main {
   max-width: 400px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #eeeeee;
 }
 
 .container {
@@ -36,11 +34,11 @@ main,
 button,
 .jumbotron {
   border-radius: 10px;
+  background-color: #eeeeee;
 }
 
 .jumbotron {
   padding: 1rem 0.5rem;
-  background-color: #eeeeee;
   margin: 0 auto;
   font-family: "Orbitron", sans-serif;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
@@ -57,15 +55,8 @@ button,
   margin-top: 2rem;
 }
 
-.padding {
-  padding: 1rem 3.5rem;
-}
-
 .resetBtn {
   width: 100%;
-  background-color: #eeeeee;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
-    -6px -6px 10px rgba(255, 255, 255, 0.48);
 }
 
 .startBtn,
@@ -76,7 +67,6 @@ button,
   border: none;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-  background-color: #eeeeee;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
     -6px -6px 10px rgba(255, 255, 255, 0.48);
 }
