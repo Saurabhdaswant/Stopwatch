@@ -30,6 +30,10 @@ main {
   justify-content: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 main,
 button,
 .jumbotron {
