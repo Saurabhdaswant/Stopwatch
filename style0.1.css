@@ -89,10 +89,10 @@ button,
   text-align: center;
 }
 
-/* .timer-buttons {
+.timer-buttons {
   display: flex;
   justify-content: center;
-} */
+}
 
 .startBtn {
   background-color: rgba(56, 238, 117, 0.527);
@@ -108,9 +108,9 @@ button,
   border: 3px solid rgb(255, 0, 85);
 }
 
-/* .display {
+.display {
   display: none;
-} */
+}
 
 .startBtn,
 .stopBtn {

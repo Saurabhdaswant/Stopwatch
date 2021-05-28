@@ -15,17 +15,15 @@ setInterval(function () {}, 1000);
 
 function startTimer() {
   if (isrunning) return;
-
-  // startBtn.style.border = " 3px solid rgb(0, 255, 85)";
-  // startBtn.style.boxShadow =
-  //   "6px 6px 10px rgba(0, 0, 0, 0.18), -6px -6px 10px rgba(255, 255, 255, 0.48)";
+  stopBtn.style.display = " block";
+  startBtn.style.display = " none";
   isrunning = true;
   interval = setInterval(incrementTimer, 1000);
 }
 function stopTimer() {
   if (!isrunning) return;
-  // startBtn.style.boxShadow =
-  //   "6px 6px 10px rgba(0, 0, 0, 0.18), -6px -6px 10px rgba(255, 255, 255, 0.48)";
+  stopBtn.style.display = " none";
+  startBtn.style.display = " block";
   isrunning = false;
   clearInterval(interval);
 }
