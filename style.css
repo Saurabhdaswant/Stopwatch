@@ -34,6 +34,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
+    -6px -6px 10px rgba(255, 255, 255, 0.48);
+}
 main,
 button,
 .jumbotron {
@@ -71,13 +75,15 @@ button,
   border: none;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.18),
+    -3px -3px 5px rgba(255, 255, 255, 0.48);
+}
+
+.Btn:focus {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18),
     -6px -6px 10px rgba(255, 255, 255, 0.48);
 }
 
-.fucus:focus {
-  border: 3px solid black;
-}
 .timer {
   font-size: 5rem;
   text-align: center;
