@@ -48,23 +48,6 @@ function incrementTimer() {
   secondsTimer.textContent = pad(numofseconds);
 }
 
-// function shadowThing() {
-//   if (isrunning) return;
-
-//   startBtn.style.boxShadow =
-//     "6px 6px 10px rgba(0, 0, 0, 0.18), -6px -6px 10px rgba(255, 255, 255, 0.48)";
-// }
-
-// function fuck() {
-//   if (isrunning) console.log("fuck");
-//   stopBtn.style.boxShadow =
-//     "6px 6px 10px rgba(0, 0, 0, 0.18), -6px -6px 10px rgba(255, 255, 255, 0.48)";
-
-//   startBtn.style.boxShadow =
-//     "6px 6px 10px rgba(0, 0, 0, 0.18), -6px -6px 10px rgba(255, 255, 255, 0.48)";
-// }
-//add the eventlisteners
-
 startBtn.addEventListener("click", startTimer);
 stopBtn.addEventListener("click", stopTimer);
 resetBtn.addEventListener("click", resetTimer);
