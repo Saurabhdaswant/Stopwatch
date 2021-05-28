@@ -89,33 +89,37 @@ button,
   text-align: center;
 }
 
-/* .timer-buttons {
+.timer-buttons {
   display: flex;
   justify-content: center;
-} */
+}
 
 .startBtn {
   background-color: rgba(56, 238, 117, 0.527);
 }
-.startBtn:focus {
+.startBtn:hover {
   border: 3px solid rgb(0, 255, 85);
 }
 
 .stopBtn {
   background-color: rgba(238, 56, 102, 0.527);
 }
-.stopBtn:focus {
+.stopBtn:hover {
   border: 3px solid rgb(255, 0, 85);
 }
 
-/* .display {
+.display {
   display: none;
-} */
+}
 
 .startBtn,
 .stopBtn {
   margin: 2rem 0;
   border: 3px solid rgba(255, 255, 255, 0);
+}
+
+.Btn img {
+  display: flex;
 }
 
 @media (max-width: 500px) {
